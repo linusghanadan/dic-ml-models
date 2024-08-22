@@ -1,11 +1,26 @@
-# Regression Models to predict Dissolved Inorganic Carbon using Ocean Chemistry features
+## Regression Models to predict Dissolved Inorganic Carbon in California Coastal Ecosystems
 
-## Background
-I build three different models (using single decision tree, random forest, and stochastic gradient boosted trees) that predict **dissolved inorganic carbon (DIC)** content in water samples. The features being used to make these predictions are other ocean chemistry measurements that were also measured during water sampling. The data set comes from the **California Cooperative Oceanic Fisheries Investigations (CalCOFI)**, an oceanographic and marine ecosystem research program located in California ([link to data set source](https://calcofi.org/data/oceanographic-data/bottle-database/)). All water samples were taken off the California coast.
-
-## Repository Contents
+### Repository Contents
     dic-ml-models
     └───data
         │   water_samples.csv
     │   README.md
     │   .ipynb
+
+### Context
+
+This project was completed for my Machine Learning class, taken as part of my Master's program at UC Santa Barbara. Provided with data and questions, I carried out this analysis using appropriate machine learning techniques.
+
+### Question
+
+How can machine learning models, specifically random forest and stochastic gradient boosted tree models, be used to predict Dissovled Inorganic Carbon (DIC) in California coastal ecosystems based on ocean chemistry features?
+
+### Analysis Summary
+
+Used data from a marine ecosystem research program to build three models (single decision tree, random forest, and stochastic gradient boosted trees) that predict dissolved inorganic carbon (DIC) based on other ocean chemistry features (e.g., sulfur trioxide concentration) that were also measured during water sampling. Developed visualizations comparing root mean squared error (RMSE) among the three models and analyzing feature importances in the best performing model.
+
+### Datasets
+- CSV of DIC and other ocean chemistry features in water samples from California coastal ecosystems
+
+### Data References
+- California Cooperative Oceanic Fisheries Investigations (CalCOFI). "Bottle Database". https://calcofi.org/data/oceanographic-data/bottle-database/
