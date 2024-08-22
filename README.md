@@ -2,6 +2,10 @@
 
 ### Repository Contents
     dic-ml-models
+    └───images
+        │   Correlation heatmap of features: correlation-heatmap.png
+        │   RMSE comparison of different models: model-comparison.png
+        │   Feature importances in best-performing model: feature-importance.png
     └───data
         │   water_samples.csv
     │   README.md
