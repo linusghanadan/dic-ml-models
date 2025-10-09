@@ -1,4 +1,4 @@
-## Regression Models to predict Dissolved Inorganic Carbon in California Coastal Ecosystems
+## Predictive Regression Models of Dissolved Inorganic Carbon
 
 ### [Link to Blog (includes Python code, code output, and written analysis)](https://linusghanadan.github.io/blog/2024-4-3-post/dic-ml-models.html)
 
