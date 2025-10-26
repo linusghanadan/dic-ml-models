@@ -17,7 +17,7 @@ This project was completed for my Machine Learning class, taken as part of my Ma
     │   README.md
     │   .ipynb
 
-### Question
+### Central Question
 
 How can machine learning models, specifically random forest and stochastic gradient boosted tree models, be used to predict Dissovled Inorganic Carbon (DIC) in California coastal ecosystems based on ocean chemistry features?
 
